@@ -1,0 +1,17 @@
+{
+  "extends": "@devhatt/eslint-config/node",
+  "parserOptions": {
+    "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "rules": {
+    "no-useless-constructor": "off",
+    "array-callback-return": "off",
+    "no-new": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
