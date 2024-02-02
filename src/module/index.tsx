@@ -1,4 +1,4 @@
-import { OctoModule, PostMode } from "@octopost/module-manager";
+import { manager, OctoModule, PostMode } from "@octopost/module-manager";
 import { DiscordServer } from "./service/service";
 import { Message } from "./postMode/message";
 import React from "react";
@@ -26,3 +26,5 @@ export class DiscordModule implements OctoModule {
   postModes = postMode;
   services = new DiscordServer();
 }
+
+manager.register("Discord", () => new DiscordModule());
