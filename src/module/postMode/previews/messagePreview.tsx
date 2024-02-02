@@ -1,3 +1,4 @@
+import React from "react";
 import "./styles/messagePreview.css";
 import { IMessagePreview } from "./messagePreview.types";
 

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "the discord module for octopost to send messages from the app to discord",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsx src/service.service.ts",
     "ladle": "ladle serve",

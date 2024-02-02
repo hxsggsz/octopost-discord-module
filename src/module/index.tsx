@@ -1,6 +1,7 @@
 import { OctoModule, PostMode } from "@octopost/module-manager";
 import { DiscordServer } from "./service/service";
 import { Message } from "./postMode/message";
+import React from "react";
 
 const icon = (
   <svg
