@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  padding: 1rem;
+  background: #313338;
+  border-radius: 0.2rem;
+  border: 2px solid #99aab5;
+}
+
+.wrapper:hover {
+  background: #2e3035;
+}
+
+.userContent {
+  display: flex;
+  color: #ffffff;
+}
+
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.2rem 0;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.8rem;
+}
+
+.userText {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.userText > h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #7033e0;
+}
+
+.userText > span {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.content {
+  margin: 0;
+  font-size: 1.2rem;
+}

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx src/service.service.ts",
+    "ladle": "ladle serve",
     "build": "tsup"
   },
   "keywords": [
