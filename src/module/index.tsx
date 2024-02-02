@@ -21,7 +21,7 @@ const icon = (
 const postMode: PostMode[] = [Message];
 
 export class DiscordModule implements OctoModule {
-  name = "Discord Module";
+  name = "Discord";
   icon = icon;
   postModes = postMode;
   services = new DiscordServer();
